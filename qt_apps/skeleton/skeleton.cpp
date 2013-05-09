@@ -30,7 +30,7 @@ Skeleton::Skeleton(QWidget *parent) : QMainWindow(parent)
     connect(quit2, SIGNAL(triggered()), qApp, SLOT(quit()));
 
     QTextEdit *edit = new QTextEdit(this);
-    setCentralWidget(edit)
+    setCentralWidget(edit);
 
     statusBar()->showMessage("Ready");
 }
